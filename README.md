@@ -1,5 +1,7 @@
 # blackbox
 
+https://github.com/user-attachments/assets/3f695c3a-16f3-4788-9f01-8897e50ae436
+
 **A deterministic flight recorder for AI coding sessions.**
 
 `blackbox` (alias `bbox`) snapshots your working tree before an AI coding
