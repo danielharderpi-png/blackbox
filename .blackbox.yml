@@ -1,0 +1,16 @@
+# blackbox policy
+version: 1
+
+# Paths (glob patterns) excluded from snapshots.
+ignore:
+  - .git/
+  - .blackbox/
+  - node_modules/
+  - vendor/
+
+# Paths the AI session must not modify.
+protected: []
+
+# Verify AI session summaries against recorded file changes.
+verify:
+  require_summary_match: true
